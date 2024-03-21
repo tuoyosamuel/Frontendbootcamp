@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body::before{
+  display:block;
+  content:'';
+  height:50px;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .d-md-flex{
+    text-align: center;
+    
+  }
+}
+
